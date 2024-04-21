@@ -1,0 +1,41 @@
+body{
+  background-color: grey;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container input{
+  height:  50px;
+  width: 30%;
+}
+.container button{
+  height:  50px;
+  width: 30%;
+  background-color: black;
+  color: azure;
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.usercont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.users{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.users button{
+  background-color: black;
+  color: azure;
+  border: 1px solid rebeccapurple;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 40px;
+}
